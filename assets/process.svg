@@ -1,0 +1,72 @@
+<svg viewBox="0 0 842 290" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" role="img" aria-label="Process: sketch, design, ship">
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#241f33"/></pattern>
+    
+  </defs>
+  <rect x="1" y="1" width="840" height="288" rx="12" fill="#0e0c14" stroke="#2c2740"/>
+  <path d="M1 13a12 12 0 0 1 12-12h816a12 12 0 0 1 12 12v25H1z" fill="#16131f"/>
+  <line x1="1" y1="38" x2="841" y2="38" stroke="#2c2740"/>
+  <circle cx="24" cy="19.5" r="6" fill="#ff5f56"/><circle cx="44" cy="19.5" r="6" fill="#ffbd2e"/><circle cx="64" cy="19.5" r="6" fill="#27c93f"/>
+  <text x="421.0" y="24" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12" text-anchor="middle">process — how a thing gets made</text>
+  <text x="822" y="24" fill="#4d4766" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="11" text-anchor="end">loop ∞</text>
+  <rect x="300" y="39" width="541" height="250" fill="url(#dots)"/>
+  <line x1="300" y1="38" x2="300" y2="289" stroke="#2c2740"/>
+  <g>
+      <text x="32" y="92" fill="#4d4766" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12">01</text>
+      <text x="62" y="92" fill="#4d4766" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">sketch</text>
+      <text x="62" y="92" fill="#ece9f5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" opacity="0">sketch<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.323;0.333;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="62" y="112" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12" opacity="0">rough it out, fast<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.323;0.333;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect x="22" y="75" width="3" height="42" rx="1.5" fill="#f2c14e" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.323;0.333;1" dur="9s" repeatCount="indefinite"/></rect>
+    </g>
+    <g>
+      <text x="32" y="154" fill="#4d4766" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12">02</text>
+      <text x="62" y="154" fill="#4d4766" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">design</text>
+      <text x="62" y="154" fill="#ece9f5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" opacity="0">design<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.323;0.333;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="62" y="174" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12" opacity="0">make it feel right<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.323;0.333;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect x="22" y="137" width="3" height="42" rx="1.5" fill="#f2c14e" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.323;0.333;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></rect>
+    </g>
+    <g>
+      <text x="32" y="216" fill="#4d4766" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12">03</text>
+      <text x="62" y="216" fill="#4d4766" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">ship</text>
+      <text x="62" y="216" fill="#ece9f5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" opacity="0">ship<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="62" y="236" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12" opacity="0">get it into hands<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect x="22" y="199" width="3" height="42" rx="1.5" fill="#f2c14e" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.657;0.667;1" dur="9s" repeatCount="indefinite"/></rect>
+    </g>
+  <g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -8;0 -8;0 0" keyTimes="0;0.67;0.72;0.98;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="421" y="72" width="300" height="168" rx="16" fill="#16131f" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="936" stroke-dashoffset="936"><animate attributeName="stroke-dashoffset" values="936;936;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <circle cx="459" cy="112" r="18" fill="#a78bfa" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="114" stroke-dashoffset="114"><animate attributeName="stroke-dashoffset" values="114;114;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></circle>
+      <rect x="489" y="100" width="140" height="11" rx="5.5" fill="#ece9f5" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="302" stroke-dashoffset="302"><animate attributeName="stroke-dashoffset" values="302;302;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <rect x="489" y="118" width="190" height="8" rx="4" fill="#4d4766" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="396" stroke-dashoffset="396"><animate attributeName="stroke-dashoffset" values="396;396;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <rect x="441" y="148" width="260" height="8" rx="4" fill="#241f33" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="536" stroke-dashoffset="536"><animate attributeName="stroke-dashoffset" values="536;536;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <rect x="441" y="164" width="190" height="8" rx="4" fill="#241f33" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="396" stroke-dashoffset="396"><animate attributeName="stroke-dashoffset" values="396;396;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <rect x="441" y="190" width="260" height="34" rx="10" fill="#a78bfa" fill-opacity="0" stroke="#8a84a3" stroke-width="1.5" stroke-dasharray="588" stroke-dashoffset="588"><animate attributeName="stroke-dashoffset" values="588;588;0;0" keyTimes="0;0.03;0.26;1" dur="9s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="1;1;0;0" keyTimes="0;0.34;0.45;1" dur="9s" repeatCount="indefinite"/></rect>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.36;0.46;1" dur="9s" repeatCount="indefinite"/>
+        <rect x="452" y="111" width="14" height="10" rx="2" fill="#0e0c14"/>
+        <path d="M455 111v-3a4 4 0 0 1 8 0v3" stroke="#0e0c14" stroke-width="2" fill="none"/>
+        <text x="571.0" y="212" fill="#0e0c14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Lock keyboard</text>
+      </g>
+      <g opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="10" fill="#ff7a7a"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1;0.16;0.32;0.36;1" dur="9s" repeatCount="indefinite"/>
+        <line x1="421" y1="60" x2="721" y2="60" stroke="#ff7a7a" stroke-width="1"/>
+        <line x1="421" y1="56" x2="421" y2="64" stroke="#ff7a7a"/><line x1="721" y1="56" x2="721" y2="64" stroke="#ff7a7a"/>
+        <text x="571.0" y="56" text-anchor="middle">300</text>
+        <text x="731" y="211">← 1 job, 1 tap</text>
+      </g>
+    <g transform="translate(693 90) rotate(-12)">
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.74;0.76;0.98;1" dur="9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale" values="2.2;2.2;1;1" keyTimes="0;0.74;0.78;1" dur="9s" repeatCount="indefinite"/>
+        <rect x="-50" y="-15" width="100" height="30" rx="6" fill="#0e0c14" stroke="#6ee7b7" stroke-width="2"/>
+        <text y="5" fill="#6ee7b7" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">✓ SHIPPED</text>
+      </g>
+    </g>
+  </g>
+  <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.67;0.68;0.98;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="421" y="258" width="300" height="4" rx="2" fill="#241f33"/>
+      <rect x="421" y="258" width="0" height="4" rx="2" fill="#6ee7b7">
+        <animate attributeName="width" values="0;0;300;300" keyTimes="0;0.68;0.8;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="421" y="278" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="11">git push · notarize · release</text>
+      <text x="721" y="278" fill="#6ee7b7" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="11" text-anchor="end" opacity="0">live<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.79;0.8;1" dur="9s" repeatCount="indefinite"/></text>
+    </g>
+</svg>
