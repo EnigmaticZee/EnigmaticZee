@@ -1,0 +1,63 @@
+<svg viewBox="0 0 842 300" xml:space="preserve" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zee — product designer who ships">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#2c2740"/>
+    </pattern>
+    <clipPath id="type0"><rect x="24" y="58" width="0" height="22"><animate attributeName="width" begin="0.4s" dur="0.36s" fill="freeze" calcMode="discrete" values="16.9;28.1;39.3;50.6;61.8;73.1;84.3"/></rect></clipPath>
+    <clipPath id="type2"><rect x="24" y="123" width="0" height="22"><animate attributeName="width" begin="1.9s" dur="0.66s" fill="freeze" calcMode="discrete" values="16.9;26.8;36.8;46.7;56.7;66.7;76.6;86.6;96.6;106.5;116.5;126.5"/></rect></clipPath>
+    <clipPath id="type4"><rect x="24" y="188" width="0" height="22"><animate attributeName="width" begin="3.5s" dur="0.96s" fill="freeze" calcMode="discrete" values="16.9;26.3;35.8;45.3;54.8;64.3;73.8;83.2;92.7;102.2;111.7;121.2;130.7;140.1;149.6;159.1;168.6"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="840" height="298" rx="12" fill="#0e0c14" stroke="#2c2740"/>
+  <rect x="600" y="38" width="241" height="261" fill="url(#grid)"/>
+  <rect x="600" y="38" width="241" height="261" fill="url(#glow)"/>
+  <line x1="600" y1="38" x2="600" y2="299" stroke="#2c2740"/>
+
+  <!-- title bar -->
+  <path d="M1 13a12 12 0 0 1 12-12h816a12 12 0 0 1 12 12v25H1z" fill="#16131f"/>
+  <line x1="1" y1="38" x2="841" y2="38" stroke="#2c2740"/>
+  <circle cx="24" cy="19.5" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19.5" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19.5" r="6" fill="#27c93f"/>
+  <text x="421.0" y="24" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12" text-anchor="middle">zee@observant-systems: ~/studio</text>
+  <text x="822" y="24" fill="#4d4766" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="11" text-anchor="end">⌘ made by zee</text>
+
+  <!-- terminal -->
+  <g clip-path="url(#type0)"><text x="24" y="74" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14"><tspan fill="#6ee7b7" font-weight="bold">$</tspan><tspan fill="#ece9f5"> whoami</tspan></text></g>
+  <text x="24" y="99" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14" opacity="0"><tspan fill="#ece9f5" font-weight="bold">Zee</tspan><tspan fill="#8a84a3">  // product designer who ships</tspan><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.25s" fill="freeze"/></text>
+  <g clip-path="url(#type2)"><text x="24" y="139" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14"><tspan fill="#6ee7b7" font-weight="bold">$</tspan><tspan fill="#ece9f5"> ls ~/studio</tspan></text></g>
+  <text x="24" y="164" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14" opacity="0"><tspan fill="#a78bfa">design-systems   b2b-tools   mac-apps   ai-native-builds</tspan><animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.25s" fill="freeze"/></text>
+  <g clip-path="url(#type4)"><text x="24" y="204" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14"><tspan fill="#6ee7b7" font-weight="bold">$</tspan><tspan fill="#ece9f5"> cat ~/.manifesto</tspan></text></g>
+  <text x="24" y="229" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14" opacity="0"><tspan fill="#ece9f5">Design it. Build it. Ship it.</tspan><tspan fill="#f2c14e">  Less excess, more intention.</tspan><animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.25s" fill="freeze"/></text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.1000000000000005s" dur="0.01s" fill="freeze"/><text x="24" y="269" fill="#6ee7b7" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="14" font-weight="bold">$</text><rect x="38" y="256" width="8" height="16" fill="#6ee7b7"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.501;1" dur="1s" repeatCount="indefinite"/></rect></g>
+
+  <!-- aperture -->
+  <g transform="translate(721 158)">
+    <circle r="90" fill="none" stroke="#2c2740" stroke-width="1" stroke-dasharray="2 6"/>
+    <circle r="78" fill="#16131f" stroke="#2c2740" stroke-width="1"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;0.9;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+        <path d="M74.00,0.00 A74,74 0 0 1 12.85,72.88 L-8.32,20.58 L8.67,20.44 Z" fill="#a78bfa" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M52.33,52.33 A74,74 0 0 1 -42.44,60.62 L-20.44,8.67 L-8.32,20.58 Z" fill="#8b6cf0" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M0.00,74.00 A74,74 0 0 1 -72.88,12.85 L-20.58,-8.32 L-20.44,8.67 Z" fill="#a78bfa" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-52.33,52.33 A74,74 0 0 1 -60.62,-42.44 L-8.67,-20.44 L-20.58,-8.32 Z" fill="#8b6cf0" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-74.00,0.00 A74,74 0 0 1 -12.85,-72.88 L8.32,-20.58 L-8.67,-20.44 Z" fill="#a78bfa" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-52.33,-52.33 A74,74 0 0 1 42.44,-60.62 L20.44,-8.67 L8.32,-20.58 Z" fill="#8b6cf0" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-0.00,-74.00 A74,74 0 0 1 72.88,-12.85 L20.58,8.32 L20.44,-8.67 Z" fill="#a78bfa" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M52.33,-52.33 A74,74 0 0 1 60.62,42.44 L8.67,20.44 L20.58,8.32 Z" fill="#8b6cf0" stroke="#0e0c14" stroke-width="2" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <circle r="14.8" fill="#f2c14e">
+      <animate attributeName="r" values="11.8;17.8;11.8" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <circle r="78" fill="none" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.5"/>
+    <text y="114" fill="#8a84a3" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="11" text-anchor="middle" letter-spacing="2">OBSERVANT SYSTEMS</text>
+  </g>
+</svg>
