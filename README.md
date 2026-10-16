@@ -36,6 +36,7 @@ on the bench    a Mac duplicate-tab cleaner  ·  more under Observant Systems
 
 <div align="center">
 
-<sub>Designing in daylight, building in public. If something here helped you, a ⭐ goes a long way.</sub>
+**Designing in daylight, building in public.**<br/>
+If something here helped you, a ⭐ goes a long way.
 
 </div>
