@@ -2,7 +2,7 @@
 """Generates the profile cards in assets/:
 
   now-shipping.svg  – PawsOff card with a paw tapping a locked keyboard
-  process.svg       – sketch → design → ship, looping
+  process.svg       – observe → sketch → design → build → ship (scripts/process_card.py)
   toolkit.svg       – the toolkit as a Figma-style canvas with a live cursor
 
 Everything is self-contained (no external requests), so nothing can rate-limit.
@@ -10,6 +10,8 @@ Pass the PawsOff icon path as the first argument to embed it.
 """
 import base64, io, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import process_card
 
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 MONO = "ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
@@ -316,6 +318,6 @@ def toolkit():
 if __name__ == "__main__":
     ASSETS.mkdir(exist_ok=True)
     icon = sys.argv[1] if len(sys.argv) > 1 else None
-    for name, s in [("now-shipping.svg", now_shipping(icon)), ("process.svg", process()), ("toolkit.svg", toolkit())]:
+    for name, s in [("now-shipping.svg", now_shipping(icon)), ("process.svg", process_card.build(C, W, MONO, SANS, window, svg, esc)), ("toolkit.svg", toolkit())]:
         (ASSETS / name).write_text(s)
         print(f"wrote {name} ({len(s)//1024} KB)")

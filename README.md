@@ -24,7 +24,7 @@ on the bench    a Mac duplicate-tab cleaner  ·  more under Observant Systems
 
 ### How I work
 
-<img src="assets/process.svg" width="100%" alt="Sketch, design, ship — a card drawn as a wireframe, coloured in, then stamped shipped" />
+<img src="assets/process.svg" width="100%" alt="Observe, sketch, design, build, ship — a problem is spotted, sketched, designed, coded and shipped, and feedback loops back to the start" />
 
 ---
 
